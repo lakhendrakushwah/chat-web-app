@@ -1,0 +1,31 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Chatting app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "14.16.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "mongoose": "^5.13.2",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.9",
+    "socket.io": "^4.1.2",
+    "socket.io-client": "^4.1.2",
+    "stripe": "^8.213.0",
+    "stripe-cli": "^0.1.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.3",
+    "utf-8-validate": "^5.0.5"
+  }
+}
